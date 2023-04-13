@@ -6,6 +6,7 @@ export function createElement(template){
     return  element.firstElementChild ;
 }
 
+console.log("hello")
 export function renderElement(container,element,insertPosition= InsertPosition.BEFOREBEGIN, referenceElement=undefined) {
  switch (insertPosition){
 
