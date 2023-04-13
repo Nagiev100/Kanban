@@ -5,7 +5,7 @@ export function createElement(template){
     element.innerHTML = template;
     return  element.firstElementChild ;
 }
-console.log("test")
+
 export function renderElement(container,element,insertPosition= InsertPosition.BEFOREBEGIN, referenceElement=undefined) {
  switch (insertPosition){
 
